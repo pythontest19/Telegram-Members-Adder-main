@@ -1,0 +1,3 @@
+telethon==1.26
+requests
+colorama==0.4.6
