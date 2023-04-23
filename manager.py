@@ -34,8 +34,8 @@ def banner():
     for char in b:
         print(f'{random.choice(colors)}{char}{n}')
     print('===========TELEGRAM MEMBERS ADDER============')
-    print(f' Version: 2.0 | Telegram Handler: @saifalisew1508{n}\n')
-    print(f' WhatsApp: +919708973259 | Instagram: saifalisew1508\n')
+    print(f' Version: 2.0 | Telegram Handler: @py1bb{n}\n')
+    print(f' youtube: pythonpassiveincomenew | Instagram: py1bb\n')
 
 def clr():
     if os.name == 'nt':
@@ -138,8 +138,8 @@ while True:
         # thanks to github.com/th3unkn0n for the snippet below
         print(f'\n{lg}[i] Checking for updates...')
         try:
-           #  https://raw.githubusercontent.com/saifalisew1508/Telegram-Members-Adder/main/version.txt
-            version = requests.get('https://raw.githubusercontent.com/saifalisew1508/Telegram-Members-Adder/main/version.txt')
+           #  https://raw.githubusercontent.com/pythontest19/Telegram-Members-Adder-main/blob/main/version.txt
+            version = requests.get('https://raw.githubusercontent.com/pythontest19/Telegram-Members-Adder-main/blob/main/version.txt')
         except:
             print(f'{r} You are not connected to the internet')
             print(f'{r} Please connect to the internet and retry')
@@ -155,8 +155,8 @@ while True:
                     os.system('rm add.py')
                     os.system('rm manager.py')
                 #os.system('del scraper.py')
-                os.system('curl -l -O https://raw.githubusercontent.com/saifalisew1508/Telegram-Members-Adder/main/add.py')
-                os.system('curl -l -O https://raw.githubusercontent.com/saifalisew1508/Telegram-Members-Adder/main/manager.py')
+                os.system('curl -l -O https://raw.githubusercontent.com/pythontest19/Telegram-Members-Adder-main/blob/main/add.py')
+                os.system('curl -l -O https://raw.githubusercontent.com/pythontest19/Telegram-Members-Adder-main/blob/main/manager.py')
                 print(f'{lg}[*] Updated to version: {version.text}')
                 input('Press enter to exit...')
                 exit()
